@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant Ordering System</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <input id="search" type="text" placeholder="Search" />
+        <button id="Signup">Sign Up</button>
+        <button id="Login">Log In</button>
+        <button id="user-icon">User</button>
+    </nav>
+
+    <img id="banner" src="banner.png" alt="Restaurant Banner">
+
+    <div id="sidebar">
+   
+        <img src="logo.png" alt="">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Orders</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About</a>
+    </div>
+
+    <button id="menu-btn" onclick="toggleSidebar()">☰</button>
+
+    <div id="menu"></div>
+
+    <button class="order-btn" onclick="startOrder()">Place Order</button>
+
+    <div id="order-section">
+        <h1>Your Order</h1>
+        <div id="order"></div>
+    </div>
+
+    <script src="script.js"></script>
+        =
+</body>
+
+</html>
